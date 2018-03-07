@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.activiti.ActHiDetailMapper">
+  <resultMap id="BaseResultMap" type="com.example.demo.bean.ActHiDetail">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID_" jdbcType="VARCHAR" property="id" />
+    <result column="TYPE_" jdbcType="VARCHAR" property="type" />
+    <result column="PROC_INST_ID_" jdbcType="VARCHAR" property="procInstId" />
+    <result column="EXECUTION_ID_" jdbcType="VARCHAR" property="executionId" />
+    <result column="TASK_ID_" jdbcType="VARCHAR" property="taskId" />
+    <result column="ACT_INST_ID_" jdbcType="VARCHAR" property="actInstId" />
+    <result column="NAME_" jdbcType="VARCHAR" property="name" />
+    <result column="VAR_TYPE_" jdbcType="VARCHAR" property="varType" />
+    <result column="REV_" jdbcType="INTEGER" property="rev" />
+    <result column="TIME_" jdbcType="TIMESTAMP" property="time" />
+    <result column="BYTEARRAY_ID_" jdbcType="VARCHAR" property="bytearrayId" />
+
+    <result column="TEXT_" jdbcType="VARCHAR" property="text" />
+    <result column="TEXT2_" jdbcType="VARCHAR" property="text2" />
+  </resultMap>
+</mapper>
