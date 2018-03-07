@@ -6,17 +6,6 @@
 <%--<%@ taglib prefix="tags" tagdir="../tags/" %>--%>
 <c:set var="ctx" value="${pageContext.request.contextPath}"/>
 
-
-
-<meta name="ctx" content="/" />
-
-
-<!--登陆的token  -->
-<meta name="_csrf"  content="${_csrf.token}" />
-<!--请求名称  -->
-<meta name="_csrf_header"  content="${_csrf.headerName}" />
-
-
 <%
 //jquery.ui主题
 String defaultTheme = "redmond";

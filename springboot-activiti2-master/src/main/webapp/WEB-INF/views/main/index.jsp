@@ -7,7 +7,6 @@ PropertyFileUtil.init();
 %>
 <html lang="en">
 <head>
-
 	<%@ include file="../common/global.jsp"%>
 	<script>
 		var notLogon = ${empty user};
@@ -53,8 +52,7 @@ PropertyFileUtil.init();
        				<div style="float:right; color: #fff;font-size: 12px;margin-top: 2px">
 		        		<div>
 		        			<label for="username">欢迎：</label>
-		        			<%--<span title="角色：${groupNames }">${user.firstName } ${user.lastName }/${user.id }</span>--%>
-							<span title="角色：">${user.id }</span>
+		        			<span title="角色：${groupNames }">${user.firstName } ${user.lastName }/${user.id }</span>
 		        		</div>
 		        		<div style="text-align: right;">
 		        			<a id="chang-theme" href="#">切换风格</a>
@@ -65,13 +63,6 @@ PropertyFileUtil.init();
        		</tr>
        	</table>
        </div>
-	<script type="text/javascript">
-
-        _ctx = $("meta[name='ctx']").attr("content");
-        token = $("meta[name='_csrf']").attr("content");
-        header = $("meta[name='_csrf_header']").attr("content");
-
-	</script>
 </div>
 
 <!-- RightPane -->
@@ -87,7 +78,7 @@ PropertyFileUtil.init();
 <!-- #BottomPane -->
 <div id="bottomPane" class="ui-layout-south ui-widget ui-widget-content">
 	<div class="footer ui-state-default">
-		<a href="http://www.kafeitu.me" target="_blank">Aukey OA 工作流</a>
+		<a href="http://www.kafeitu.me" target="_blank">咖啡兔(闫洪磊)</a>
 		<span class="copyright">©2011-2016</span>
 		<span class="version">Version：${prop['system.version']}</span>
 	</div>

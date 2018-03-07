@@ -4,7 +4,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-
 	<%@ include file="../common/global.jsp"%>
 	<%@ include file="../common/meta.jsp"%>
 

@@ -77,7 +77,7 @@ public class DemoDataInitConfig {
             initDemoUsers();
         }*/
 
-    if (Boolean.valueOf(PropertyFileUtil.get("create.demo.definitions", "true"))) {
+     /* if (Boolean.valueOf(PropertyFileUtil.get("create.demo.definitions", "true"))) {
             LOGGER.info("Initializing demo process definitions");
             initProcessDefinitions();
         }
@@ -85,7 +85,7 @@ public class DemoDataInitConfig {
         if (Boolean.valueOf(PropertyFileUtil.get("create.demo.models", "true"))) {
             LOGGER.info("Initializing demo models");
             initModelData();
-        }
+        }*/
     }
 
     protected void initDemoGroups() {
